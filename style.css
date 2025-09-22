@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Brush Script MT';
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  background-color: lightblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.history{
+    display:flex;
+    overflow-y: scroll;
+    /* height: 39.9rem; */
+    height: 94%;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1rem solid lightblue;
+    border-radius: 0.6rem;
+    min-width: 99%;
+    margin-bottom: 10px;
+    
+}
+
+ul li{
+    margin: 1rem 2rem;
+    list-style-type:none;
+    border-bottom: 0.02rem dotted lightblue;
+}
+
+li:nth-child(even){
+    color:rgb(66, 66, 66);
+}
+
+#textInput{
+  padding: 2.5px 5px;
+  height: 3rem;
+  width: 30rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: lightblue;
+  padding: 5px;
+  position: absolute;
+  bottom: 0px;
+}
+
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonImg{
+  height: 2.5rem;
+}
+
+.btnSend{
+  height: 3rem;
+}
+
+.main{
+ margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 89vh;
+}
