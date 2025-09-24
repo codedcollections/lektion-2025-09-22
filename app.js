@@ -2,11 +2,13 @@
 const textInput = document.getElementById('textInput')
 const btnSend = document.getElementById('btnSend')
 const msgContainer = document.getElementById('msgContainer')
+const chatContainer = document.querySelector(".history")
 
 btnSend.addEventListener('click', (e)=> {
     e.preventDefault();
     newMsg (textInput.value);
     textInput.value = ''
+    chatContainer.scrollTop = chatContainer.scrollHeight;
  })
 
 function newMsg (msg){
