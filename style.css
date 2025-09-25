@@ -34,6 +34,10 @@ header{
     
 }
 
+#msgContainer{
+  width: 100%;
+}
+
 ul li{
     margin: 1rem 2rem;
     list-style-type:none;
